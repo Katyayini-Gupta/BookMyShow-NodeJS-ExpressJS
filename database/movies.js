@@ -5,7 +5,8 @@ const MoviesSchema = mongoose.Schema({
     imageurl: String,
     title: String,
     actor: String,
-    genres: String
+    genres: String,
+    likes: Number
 });
 
 const MoviesModel = mongoose.model("movies", MoviesSchema);
