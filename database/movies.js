@@ -6,7 +6,8 @@ const MoviesSchema = mongoose.Schema({
     title: String,
     actor: String,
     genres: String,
-    likes: Number
+    likes: Number,
+    votes: Number
 });
 
 const MoviesModel = mongoose.model("movies", MoviesSchema);
